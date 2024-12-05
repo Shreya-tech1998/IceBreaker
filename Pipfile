@@ -4,19 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-tweepy = "*"
-pylint = "*"
-black = "*"
-isort = "*"
+openai = "*"
 langchain = "*"
+community = "*"
 langchain-community = "*"
+langchain-ollama = "*"
+requests = "*"
 langchain-openai = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.10"
-
-[pipenv]
-allow_prereleases = true
+python_version = "3.13"
+python_full_version = "3.13.0"
